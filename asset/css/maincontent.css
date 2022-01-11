@@ -1,0 +1,38 @@
+:root{
+    --basic-yellow:rgba(255, 255, 56, 0.68);
+}
+
+
+.mainContent{
+    display: flex;
+}
+
+
+.content-section{
+    height: 100vh;
+    
+    
+
+}
+
+.content-side{
+    width: 25%;
+
+    height: 80vh;
+    background-color: var(--basic-yellow);
+}
+.content-side.active{
+    width: 8%;
+}
+.side-tab{
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+    height: 1000vh;
+    
+}
+.content-main{
+    width: 100%;
+   
+    background-color: tomato;
+}
+
