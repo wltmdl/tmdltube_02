@@ -1,0 +1,31 @@
+.side-tab-menu{
+
+    padding: 20px 20px;
+
+    border-bottom: 1px solid gray;
+}
+
+.side-menu-item{
+    padding: 10px 0px;
+}
+.side-menu-item a, .side-mini-menu-item a{
+    text-decoration: none;
+}
+.side-menu-item span{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.side-text{
+    padding: 10px 0px;
+}
+
+.side-mini-menu{
+    padding: 20px 20px;
+}
+.side-mini-menu-item span{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.side-mini-menu-item{
+    padding: 10px 0px;
+}

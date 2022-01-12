@@ -1,38 +1,53 @@
 :root{
-    --basic-yellow:rgba(255, 255, 56, 0.68);
+    --basic-gray:rgb(23, 23, 20);
 }
 
 
 .mainContent{
     display: flex;
+
+    padding-top: 60px;
 }
-
-
-.content-section{
-    height: 100vh;
-    
-    
-
-}
-
 .content-side{
-    width: 25%;
+    position: fixed;
+    background-color: rgba(45, 45, 45,1);
+}
 
-    height: 80vh;
-    background-color: var(--basic-yellow);
-}
-.content-side.active{
-    width: 8%;
-}
+
 .side-tab{
     overflow-y:scroll;
-    scroll-behavior: smooth;
-    height: 1000vh;
+    width: 285px;
+    height: 93.7vh;
     
 }
+.side-tab.active {
+    display: none;
+}
+
+.side-mini-tab{
+    width: 90px;
+    height: 93.7vh;
+}
+.side-mini-tab.active{
+    display: none;
+}
+
+
+
+
 .content-main{
+    margin-left: 285px;
+
+    padding: 40px;
     width: 100%;
-   
-    background-color: tomato;
+    height: 100vh;
+
+    color: whitesmoke;
+    background-color: var(--basic-gray);
+
+}
+.content-main.active{
+    margin-left: 90px;
+    
 }
 
